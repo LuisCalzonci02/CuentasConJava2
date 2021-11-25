@@ -1,6 +1,8 @@
-package com.NttData.CuentasSevice.repository;
+package com.NttData.CuentasSevice.Cuentas;
 
 import com.NttData.CuentasSevice.entity.Cuenta;
+import com.NttData.CuentasSevice.repository.CuentaRepositoryDAO;
+import com.NttData.CuentasSevice.repository.CuentasRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 

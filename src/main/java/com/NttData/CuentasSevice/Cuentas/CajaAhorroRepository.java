@@ -1,4 +1,6 @@
-package com.NttData.CuentasSevice.repository;
+package com.NttData.CuentasSevice.Cuentas;
+
+import com.NttData.CuentasSevice.repository.CuentasRepository;
 
 public class CajaAhorroRepository implements CuentasRepository {
     private double balance;

@@ -27,7 +27,9 @@ public class CuentaCorriente extends Cuenta implements CuentasRepository {
 
     @Override
     public void retiro(double monto) {
-        this.balance = balance - monto;
+        if ((balance + acuerdo) < monto){
+            this.balance = balance - monto;
+        }
     }
 
     @Override

@@ -14,6 +14,7 @@ public class Cuenta {
   @Id
   @GeneratedValue(strategy = GenerationType.AUTO)
   private Integer id;
+  private Integer idCliente;
   private Integer numerooCuenta;
   private Float saldo;
   @Enumerated(EnumType.STRING)
