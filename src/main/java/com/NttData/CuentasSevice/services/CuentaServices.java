@@ -13,6 +13,8 @@ public class CuentaServices {
     @Autowired
     private CuentasRepository cuentasRepository;
 
+
+
     public CuentasRepository getCuentasRepository() {
         return cuentasRepository;
     }
@@ -20,4 +22,8 @@ public class CuentaServices {
     public void setCuentasRepository(CuentasRepository cuentasRepository) {
         this.cuentasRepository = cuentasRepository;
     }
+
+
+
+
 }
