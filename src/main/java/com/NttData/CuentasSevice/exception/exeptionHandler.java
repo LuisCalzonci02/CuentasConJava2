@@ -1,6 +1,6 @@
 package com.NttData.CuentasSevice.exception;
 
-import com.NttData.CuentasSevice.controller.CuentaInxistenteEception;
+import com.NttData.CuentasSevice.config.exception.CuentaInxistenteEception;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

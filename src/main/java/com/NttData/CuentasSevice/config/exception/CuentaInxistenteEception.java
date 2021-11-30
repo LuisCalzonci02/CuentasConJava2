@@ -1,4 +1,4 @@
-package com.NttData.CuentasSevice.controller;
+package com.NttData.CuentasSevice.config.exception;
 
 public class CuentaInxistenteEception extends Throwable{
 }

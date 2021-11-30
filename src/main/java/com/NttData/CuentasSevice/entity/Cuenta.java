@@ -35,6 +35,14 @@ public class Cuenta {
     this.acuerdo = acuerdo;
   }
 
+  public Cuenta(Integer idcliente, Integer numeroCuenta, Float saldo, TipoMoneda tipoMoneda, String tipoCuenta) {
+    this.idcliente = idcliente;
+    this.numeroCuenta = numeroCuenta;
+    this.saldo = saldo;
+    this.tipoMoneda = tipoMoneda;
+    this.tipoCuenta = tipoCuenta;
+  }
+
   public Cuenta() {
   }
 }
